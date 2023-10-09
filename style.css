@@ -44,7 +44,8 @@ body{
     height: 18.75rem;
     max-height: 300px;
     grid-template-columns: repeat(3, 1fr);
-    width: 90%;
+    max-width: 300px;
+    width: 100%;
     margin: 0 auto;
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 2rem;
@@ -59,7 +60,7 @@ body{
     font-size: 2rem;
     text-align: center;
     height: 75px;
-    
+    cursor: pointer;
 }
 
 .box1, .box2, .box4, .box5{
@@ -76,10 +77,20 @@ body{
     border-right: 1px solid rgba(0, 0, 0, 0.8);
 }
 
+.win-color{
+    background-color: green;
+}
+
 .new-game{
+    display: none;
     background-color: rgba(0, 94, 255, 0.645);
     padding: 1rem 2rem;
     border: 1px solid rgb(3, 69, 249);
     border-radius: 1.5rem;
     color: white;
+    cursor: pointer;
+}
+
+.active{
+    display: block;
 }
