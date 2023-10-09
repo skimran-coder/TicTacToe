@@ -23,6 +23,7 @@ initGame()
 function initGame(){
     currentPlayer = 'X'
     fillCount = 0;
+    answer = "";
     playerInfo.innerText = `Current Player - ${currentPlayer}`
     boxStatus = ["","","","","","","","",""]
     newGameButton.classList.remove("active");
