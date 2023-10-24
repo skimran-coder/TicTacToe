@@ -27,21 +27,22 @@ body{
 }
 
 .player-info{
-    /* position: absolute; */
+    position: absolute;
     background-color: rgba(0, 94, 255, 0.645);
     padding: 1rem 2rem;
     border: 1px solid rgb(3, 69, 249);
     border-radius: 1.5rem;
     color: white;
-    /* top: 5rem; */
-    /* left: 50%; */
-    /* transform: translateX(-50%); */
+    width: 14rem;
+     top: 5rem; 
+     left: 50%; 
+    transform: translateX(-50%); 
     
 }
 
 .container{
     display: grid;
-    height: 18.75rem;
+    /* height: 18.75rem; */
     max-height: 300px;
     grid-template-columns: repeat(3, 1fr);
     max-width: 300px;
@@ -51,7 +52,7 @@ body{
     padding: 2rem;
     background-color: rgba(255, 255, 255, 0.778);
     border-radius: 1.25rem;
-
+    position: absolute;
 }
 
 .box{
@@ -61,6 +62,10 @@ body{
     text-align: center;
     height: 75px;
     cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .box1, .box2, .box4, .box5{
@@ -77,20 +82,24 @@ body{
     border-right: 1px solid rgba(0, 0, 0, 0.8);
 }
 
-.win-color{
-    background-color: green;
-}
-
 .new-game{
     display: none;
+    position: absolute;
     background-color: rgba(0, 94, 255, 0.645);
     padding: 1rem 2rem;
     border: 1px solid rgb(3, 69, 249);
     border-radius: 1.5rem;
     color: white;
     cursor: pointer;
+    bottom: 5rem; 
+     left: 50%; 
+    transform: translateX(-50%); 
 }
 
 .active{
     display: block;
+}
+
+.win-color {
+    background-color: green;
 }

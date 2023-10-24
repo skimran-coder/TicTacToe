@@ -31,6 +31,7 @@ function initGame(){
     boxes.forEach((box) => {
         box.innerText = "";
         box.style.pointerEvents = "all";
+        box.classList.remove("win-color");
     })
 
 }
@@ -53,6 +54,9 @@ function checkWinner(){
         boxStatus[position[0]] === boxStatus[position[1]] && boxStatus[position[1]] === boxStatus[position[2]]) {
             console.log("winner");
             answer = boxStatus[position[0]]
+            position.forEach((index) => {
+                boxes[index].classList.add("win-color");
+            });
             playerInfo.innerText = `Winner Player - ${answer}`
             // currently writing here
             
