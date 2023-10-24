@@ -2,7 +2,7 @@
 
 Welcome to the Tic Tac Toe game project! This classic game allows two players to compete in a fun and strategic battle of Xs and Os.
 
-![![Tic Tac Toe](asset/titactoe.png)](https://skimran-coder.github.io/TicTacToe/)
+![![Tic Tac Toe](https://skimran-coder.github.io/TicTacToe/)](asset/titactoe.png)
 
 ## Table of Contents
 
