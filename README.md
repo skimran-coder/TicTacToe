@@ -4,6 +4,10 @@ Welcome to the Tic Tac Toe game project! This classic game allows two players to
 
 ![![Tic Tac Toe](https://skimran-coder.github.io/TicTacToe/)](asset/titactoe.png)
 
+## Play
+
+You can relive your childhood memories [here](https://skimran-coder.github.io/TicTacToe/).
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -12,10 +16,6 @@ Welcome to the Tic Tac Toe game project! This classic game allows two players to
 - [Getting Started](#getting-started)
 - [How to Play](#how-to-play)
 - [Contributing](#contributing)
-
-## Play
-
-You can relive your childhood memories [here](https://skimran-coder.github.io/TicTacToe/).
 
 
 ## Introduction
