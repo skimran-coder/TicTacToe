@@ -13,6 +13,11 @@ Welcome to the Tic Tac Toe game project! This classic game allows two players to
 - [How to Play](#how-to-play)
 - [Contributing](#contributing)
 
+## Play
+
+You can relive your childhood memories [here](https://skimran-coder.github.io/TicTacToe/).
+
+
 ## Introduction
 
 Tic Tac Toe, also known as Noughts and Crosses, is a popular paper-and-pencil game that has been brought to the digital world. This project aims to provide an engaging and interactive experience for users to enjoy the classic game online.
